@@ -1,0 +1,12 @@
+:root { --main: #176b66; --ink: #24313a; --muted: #687780; }
+body { background: #f4f7f8; color: var(--ink); min-height: 100vh; }
+.app-navbar { background: var(--main); }
+.card { border: 1px solid #e3e9eb; border-radius: 12px; box-shadow: 0 4px 18px rgba(25,45,55,.04); }
+.card-stat { border-left: 4px solid var(--main); }
+.page-title { font-weight: 700; letter-spacing: -.02em; }
+.table thead th { background: #eef3f4; color: #44545b; font-size: .88rem; white-space: nowrap; }
+.form-label { font-weight: 600; font-size: .92rem; }
+.btn-primary { background: var(--main); border-color: var(--main); }
+.btn-primary:hover { background: #10534f; border-color: #10534f; }
+.auth-wrap { max-width: 470px; margin: 4vh auto; }
+footer { margin-top: auto; }
